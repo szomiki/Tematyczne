@@ -1,0 +1,16 @@
+[project]
+name = "drugi"
+version = "1.0.0"
+description = "moje_srodowisko"
+authors = [
+    {name = "Olaf Chomicki"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "sphinx (>=9.1.0,<10.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
